@@ -1,0 +1,10 @@
+{
+    "h_obs_mix": 6,  
+    "sigma_start": 0.1,
+    "sigma_end": 0.1,
+    "sigma_index": 20,
+    "corr_factor_u": 1.029,
+    "corr_offset_u": -0.052,
+    "corr_factor_v": 1.037,
+    "corr_offset_v": -0.054
+}
