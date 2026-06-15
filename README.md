@@ -1,17 +1,15 @@
 ﻿# TORQUE 2026
 
-[![DOI](https://img.shields.io/badge/DOI-10.4121%aef1a1b8--29d8--41c9--8ff6--5d82fdc6a96f-yellow.svg)](https://doi.org/10.4121/aef1a1b8-29d8-41c9-8ff6-5d82fdc6a96f)
+[![DOI](https://img.shields.io/badge/DOI-10.4121/aef1a1b8--29d8--41c9--8ff6--5d82fdc6a96f-yellow.svg)](https://doi.org/10.4121/aef1a1b8-29d8-41c9-8ff6-5d82fdc6a96f)
 
 [![GitHub License](https://img.shields.io/badge/license-Apache--2.0-green)](https://github.com/jennaiori/torque26-128/blob/main/LICENSE)
 
 
-This repository contains the code used to generate the results of the study "Forecast error mitigation for the ramp-constrained operation of wind farms" (ID 128) submitted to the [TORQUE 2026 conference](https://torque2026.eu/). The code is based on the open-source dispatch optimization tool [SHIPP](https://github.com/jennaiori/shipp).
+This repository contains the code used to generate the results of the study "Forecast error mitigation for the ramp-constrained operation of wind farms" (DOI: [10.1088/1742-6596/3224/3/032075](https://doi.org/10.1088/1742-6596/3224/3/032075)) presented at the [TORQUE 2026 conference](https://torque2026.eu/). The code is based on the open-source dispatch optimization tool [SHIPP](https://github.com/jennaiori/shipp).
 
 Questions about this repository can be addressed to j.iori@tudelft.nl. 
 
 ## Dependencies
-
-The data required to run the numerical experiments in this repository is available open-source at (doi)[]. Please dowload the files and place them in the folder `data/wind/`.
 
 To run the main script, it is only required to install shipp and an off-the-shelf solver. For example, using MOSEK:
 
@@ -35,7 +33,7 @@ pip install mosek==10.2.0
 
 ## Dataset
 
-The dataset associated to the publication is available at [10.4121/555ef6b0-c488-49ff-9726-0c92d276c8e5](ttps://doi.org/10.4121/555ef6b0-c488-49ff-9726-0c92d276c8e5). It contains the required inputs to run the numerical experiments: wind speed and wind direction observation and forecast for the year 2019, for 20 offshore sites in Northern Europe. The corresponding files should be downloaded and placed in a new folder `data/wind/`.
+The dataset associated to the publication is available at [10.4121/555ef6b0-c488-49ff-9726-0c92d276c8e5](https://doi.org/10.4121/555ef6b0-c488-49ff-9726-0c92d276c8e5). It contains the required inputs to run the numerical experiments: wind speed and wind direction observation and forecast for the year 2019, for 20 offshore sites in Northern Europe. The corresponding files should be downloaded and placed in a new folder `data/wind/`.
 
 ## Use
 
