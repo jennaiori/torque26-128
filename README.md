@@ -2,7 +2,7 @@
 
 [![DOI](https://img.shields.io/badge/DOI-10.4121%aef1a1b8--29d8--41c9--8ff6--5d82fdc6a96f-yellow.svg)](https://doi.org/10.4121/aef1a1b8-29d8-41c9-8ff6-5d82fdc6a96f)
 
-[![GitHub License](https://img.shields.io/github/license/jennaiori/torque26-128)](https://github.com/jennaiori/torque26-128/blob/main/LICENSE.md)
+[![GitHub License](https://img.shields.io/github/license/jennaiori/torque26-128)](https://github.com/jennaiori/torque26-128/blob/main/LICENSE)
 
 
 This repository contains the code used to generate the results of the study "Forecast error mitigation for the ramp-constrained operation of wind farms" (ID 128) submitted to the [TORQUE 2026 conference](https://torque2026.eu/). The code is based on the open-source dispatch optimization tool [SHIPP](https://github.com/jennaiori/shipp).
